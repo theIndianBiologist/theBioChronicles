@@ -10,7 +10,7 @@ body {
 
 /* Header Section */
 header {
-    background-color: #333;
+    background-color: #2742f6;
     color: white;
     padding: 20px;
     font-size: 24px;
@@ -25,20 +25,4 @@ main {
 p {
     font-size: 18px;
     color: #555;
-}
-
-/* Button Styling */
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-/* Button Hover Effect */
-button:hover {
-    background-color: #0056b3;
 }
