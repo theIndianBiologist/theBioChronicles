@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F7F4EA; 
+  color: #1e3d2f; /* dark green */
+  line-height: 1.7;
+}
+
+header {
+  background-color: #285d02; 
+  color: e;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0rem;
+}
+.logo img {
+    height: 90px; /* Adjust as needed - this controls the logo's height */
+    width: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space below the image */
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.blog-post h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #4a5a4a;
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: #6b7d6b;
+  margin-bottom: 2rem;
+}
+
+.blog-post h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+}
+
+.blog-post p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.blog-image {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.back-link {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: bold;
+}

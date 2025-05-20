@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #fdf8f0; /* cream */
+  color: #1e3d2f; /* dark green */
+  line-height: 1.7;
+}
+
+header {
+  background-color: #285d02; 
+  color: e;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0rem;
+}
+.logo img {
+    height: 90px; /* Adjust as needed - this controls the logo's height */
+    width: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space below the image */
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.profile-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.back-link {
+  margin-top: 3rem;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #90af7b;
+  font-weight: bold;
+}

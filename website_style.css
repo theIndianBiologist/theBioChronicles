@@ -1,28 +1,145 @@
-website_style.css
-/* General Page Styling */
+/* Base styles */
 body {
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #F7F4EA;
+  color: #3E3C38;
+}
+
+/* Header */
+.header {
+  background-color: #245402f7;
+  padding: 20px 0;
+  text-align: center;
+  display: flex; /* Helps with aligning logo and nav */
+  /*justify-content: space-between; /* Pushes logo to left, nav to right */
+  align-items: center; /* Vertically centers items */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+}
+
+.logo {
+    /* Add these properties to center the logo container */
+    display: flex;          /* Use flexbox for centering */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically (if needed) */
+    width: auto;          /* Adjust as needed, or remove if you want it to take the size of the image */
+  
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #FDFBF6;
+}
+
+.logo img {
+    height: 90px; /* Adjust as needed - this controls the logo's height */
+    width: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space below the image */
+}
+
+/* Site Description */
+.site-description {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.description-left,
+.description-right {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Series Section */
+.series-section {
+  padding: 40px 10%;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.series-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.series-card {
+  background-color: #90af7b;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.series-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.series-title {
+  color: #3E3C38;
+  margin: 15px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.series-description {
+  color: #eee9df;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #FDFBF6;
+  background-color: #5C734B;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #3E3C38;
+}
+
+/* About Box */
+.about-box {
+  background-color: #46433F;
+  text-align: left;
+  padding: 20px 10%;
+}
+
+.about-link {
+  color: #FDFBF6;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .site-description {
+    flex-direction: column;
+  /*text align: center; */  
+  }
+
+  .description-left,
+  .description-right {
+    text-align: left;
+  }
+
+  .about-box {
     text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-/* Header Section */
-header {
-    background-color: #2742f6;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-}
-
-/* Main Content */
-main {
-    padding: 20px;
-}
-
-/* Paragraph Styling */
-p {
-    font-size: 18px;
-    color: #555;
+  }
 }
