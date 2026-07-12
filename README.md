@@ -1,0 +1,1 @@
+This repository is for the website theBioChronicles. This website is a record of my progress in academia. I share resources that helped me, experiences that shaped me, people that inspired me. Please feel free to contact even if it's just one conversation. 
